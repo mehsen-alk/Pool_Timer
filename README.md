@@ -1,16 +1,18 @@
 # pool_timer
 
-A new Flutter project.
+an app that help to manage the pool by tracking the swimmers time remaining and their personal stuff that puts in the lockbox
 
-## Getting Started
+## what it do
 
-This project is a starting point for a Flutter application.
+* Nice and simple ui:
+    * show list of group (delete group by long press on it)
+    * add new group
+    * show group details
 
-A few resources to get you started if this is your first Flutter project:
+* Push a notification:
+    * when adding new group
+    * when there are 10 minute left from swimmer group time
+    * when swimmer time is finish
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Local store:
+    * store the swimmers groups list (by using hive)
